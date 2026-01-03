@@ -1,16 +1,92 @@
-# React + Vite
+# 🚀 QuickFlick – Smart To-Do Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuickFlick is a modern, feature-rich **To-Do List web application** built using **React + Vite**.  
+It helps users efficiently manage tasks with priorities, filters, sorting, and persistent storage — all wrapped in a clean, responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### 🏠 Landing Experience
+- Elegant landing page with a motivating tagline
+- Clear navigation across all pages
+- Smooth transition into the app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📝 Task Management
+- Add new tasks with:
+  - Title
+  - Description
+  - Due date
+  - Priority level (Low / Medium / High)
+- Edit tasks inline
+- Delete tasks directly while editing
+- Mark tasks as completed using a checkbox
 
-## Expanding the ESLint configuration
+### 🎯 Smart Organization
+- Priority color indicators on task cards
+- Filters:
+  - All tasks
+  - Completed tasks
+  - Pending tasks
+  - Priority-based filtering
+- Sorting options:
+  - By due date
+  - By creation time
+  - By priority
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💾 Data Persistence
+- Tasks are saved automatically using **LocalStorage**
+- Data remains intact even after page refresh
+
+### 🎨 UI & UX Enhancements
+- Responsive layout (desktop & mobile friendly)
+- Animated interactions for better user experience
+- Hover-based action buttons for a clean interface
+- Minimizable / expandable task form
+- Smooth transitions and visual feedback
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React** – Component-based UI development
+- **Vite** – Fast build tool and development server
+- **JSX** – Declarative UI structure
+- **CSS3** – Responsive styling and animations
+
+### State Management
+- React Hooks:
+  - `useState`
+  - `useEffect`
+
+### Storage
+- **Browser LocalStorage** for persistent task data
+
+---
+
+## 📱 Responsive Design
+
+QuickFlick is fully responsive and optimized for:
+- Desktop
+- Tablet
+- Mobile devices
+
+---
+
+## 📂 Project Structure
+
+```txt
+src/
+│── components/
+│   ├── Landing.jsx
+│   ├── FilterBar.jsx
+│   ├── TodoApp.jsx
+│   ├── TaskForm.jsx
+│   ├── TaskList.jsx
+│   └── TaskItem.jsx
+│
+│── App.jsx
+│── main.jsx
+│── index.css
+├── styles.css
