@@ -94,9 +94,14 @@ src/
 ```
 ## Screenshots
 
-<img width="1366" height="768" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/1b618b22-1d5c-4f18-9022-d5bfe0c32823" />
+<img width="1366" height="666" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/e908464b-0a8a-4179-a1d9-06f2d8c61240" />
+
 <img width="1366" height="660" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/86f84e89-6417-4e5f-ba76-d32dfa5982a2" />
+
 <img width="1366" height="660" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/b0e37453-642e-4437-8f52-59afbe63ac9c" />
+
 <img width="1366" height="660" alt="Screenshot (133)" src="https://github.com/user-attachments/assets/2e652afa-3ba2-4de9-abde-a8af6d1c1e00" />
+
 <img width="1366" height="660" alt="Screenshot (134)" src="https://github.com/user-attachments/assets/d1fd47db-8104-466b-babf-9f252cf89783" />
+
 <img width="1366" height="660" alt="Screenshot (135)" src="https://github.com/user-attachments/assets/e512bfcf-aec3-4ebf-9a72-07ddeb14e982" />
