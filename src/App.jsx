@@ -54,8 +54,17 @@ function App() {
     if(filter === "pending") {
       filteredTasks = filteredTasks.filter(t => !t.completed);
     }
+    
     if(filter === "high"){
       filteredTasks = filteredTasks.filter(t => t.priority === "high");
+    }
+
+    if(filter === "medium"){
+      filteredTasks = filteredTasks.filter(t => t.priority === "medium");
+    }
+
+    if(filter === "low"){
+      filteredTasks = filteredTasks.filter(t => t.priority === "low");
     }
 
     if(sortBy === "date"){
