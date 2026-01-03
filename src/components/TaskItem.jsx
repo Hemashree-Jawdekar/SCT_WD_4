@@ -73,7 +73,7 @@ export default function TaskItem({ task, deleteTask, updateTask, toggleComplete 
                 </div>
                 <div className="task-actions">
                         <button onClick={saveEdit}>💾 Save</button>
-                        <button className="danger" onClick={deleteTask}>🗑 Delete</button>
+                        <button className="danger" onClick={() => deleteTask(task.id)}>🗑 Delete</button>
                 </div>
                 </div>
             )}
